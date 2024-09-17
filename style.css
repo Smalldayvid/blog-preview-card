@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Figtree", sans-serif;
+  background-color: hsl(47, 88%, 63%);
+  margin: 0;
+  padding: 0.5rem;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  background-color: #fff;
+  border: 1px solid hsl(0, 0%, 7%);
+  box-shadow: 1rem 1rem 0 rgba(0, 0, 0, 0.808);
+  border-radius: 1rem;
+  padding: 20px;
+  max-width: 400px;
+}
+
+.img img {
+  display: flex;
+  border-radius: 1rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.learning {
+  font-weight: bold;
+  background-color: hsl(47, 88%, 63%);
+  border-radius: 4px;
+  width: fit-content;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+
+  margin-bottom: 1rem;
+}
+
+.date {
+  margin-bottom: 1rem;
+}
+
+.name {
+  font-weight: bold;
+  font-size: x-large;
+  margin-bottom: 1rem;
+}
+
+.message {
+  width: 100%;
+  margin-bottom: 2rem;
+  color: hsl(0, 0%, 42%);
+}
+
+.image-avatar span {
+  font-weight: bold;
+}
+
+.image-avatar {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 1rem;
+  align-items: center;
+  gap: 1rem;
+}
+
+@media (max-width: 375px) {
+}
